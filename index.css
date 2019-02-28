@@ -1,0 +1,276 @@
+body{
+  background-image: url('back.jpg');
+  background-size: 100%;
+}
+.parallax {
+ 
+  background-image: url('back.jpg');
+
+  
+  min-height:300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
+   
+   
+.wrapper{
+    background-color: rgba(17, 53, 119, 0.411);
+   
+    height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+   
+}
+a{
+    position: relative;
+    margin: 15px;
+    top:15px;
+    color:rgb(247, 243, 243);
+    font-weight: bold;
+}
+a:hover{
+    color: white;
+    background-color: rgb(5, 78, 83);
+}
+#searchInput{
+    position: relative;
+    left: 430px;
+    top:15px;
+    border-radius: px;
+   
+   border: solid 1px;
+   border-color: white;
+   color:rgb(247, 243, 243);
+   font-weight: bold;
+   opacity: none;
+   background-color: transparent;
+}
+#searchInput:hover{
+  background-color: rgb(5, 78, 83);
+}
+#searchBtn{
+    position: relative;
+    left:430px;
+    top:15px;
+    border-radius: px;
+   border: solid 1px;
+   border-color: white;
+   background-color:transparent;  
+   color:rgb(253, 250, 250);
+   font-weight: bold;
+}
+
+
+
+
+
+#card{
+    background-color:   rgba(246, 248, 250, 0.623);
+      border: solid 1px;
+    border-color: rgb(47, 101, 163);
+    border-radius: 0;
+    height: 220px;
+    width: 270px;
+       margin: 10px;
+       position: relative;
+       top:20px;
+       left:40px;
+       font-weight: bold;
+       display: inline-flex;
+     
+    
+
+}
+
+#loader{
+    position: relative;
+    top: 200px;
+    left:600px;
+    height: 100px;
+    width: 100px;
+}
+.collapsible{
+  background-color:rgba(28, 115, 197, 0.226);
+  width: 120px;
+  height: 50px;
+  border: solid 1.5px;
+  border-color:rgba(23, 73, 119, 0.719);
+  color:black;
+  font-weight: bold;
+  border-radius: 0%;
+  cursor: pointer;
+  
+ 
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgba(28, 115, 197, 0.637);
+    
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgba(7, 52, 94, 0.459);
+    
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .toggleBtn{
+    position: relative;
+    left:130px;
+    top: -30px
+  }
+ 
+  #infocard{
+    border: solid 0.5px;
+    background-color: rgb(245, 246, 250);
+    transform: scale(1.5); 
+    font-size: 10px;
+    width: 150px;
+    height: 120px;
+    padding: 5px;
+   position: relative;
+    border-color: rgb(47, 101, 163);
+    z-index: 3;
+
+  }
+  
+  
+
+
+  #row{
+    width: 1300px;
+       
+  }
+  
+#modal {
+  display: none;
+  position: fixed;
+   
+  padding-top: 100px;
+    left: 0;
+  top: 0;
+  width: 10000px;
+  height: 300px;
+   overflow: auto;
+  
+
+}
+
+ .modal-content {
+  background-color:transparent;
+  margin: auto;
+  padding: 25px;
+  border: 1px solid rgb(3, 3, 3);
+  width: 305px;
+  border-radius: 0%;
+  position: relative;
+  top:20px;
+
+}
+ .modalMessage {
+   text-align: center;
+  background-color:transparent;
+   margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: bolder;
+  color: #3520aa;
+}
+
+#chartContainer{
+  position: relative;
+  top: 60px;
+  font-weight: bold;
+}
+
+#aboutcard{
+  background-color: rgba(255, 255, 255, 0.466);
+  position: relative;
+  top: 50px;
+  left:200px;
+font-weight: bold;
+  height: 400px;
+  width: 900px;
+  color: black;
+  border: solid 1px black;
+  border-radius: 0%;
+}
+
+
+
+
+
+.card-subtitle{
+  text-decoration: underline;
+}
+.myimg{
+ position: relative;
+ left:30px;
+ top:-120px;
+  
+}
+
+.livereportMsg{
+text-align: center;
+font-weight: bolder;
+font-size: 40px;
+position: relative;
+top:60px;
+
+
+
+}
